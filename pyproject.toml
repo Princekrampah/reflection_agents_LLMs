@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sections"
+version = "0.1.0"
+description = ""
+authors = ["Princekrampah <jsksprince@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.13"
+langgraph = "^0.0.30"
+python-decouple = "^3.8"
+langchain-openai = "^0.1.1"
+tavily-python = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
